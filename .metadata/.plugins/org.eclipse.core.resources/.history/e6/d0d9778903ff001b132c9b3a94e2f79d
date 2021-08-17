@@ -1,0 +1,15 @@
+package com.mitocode.dao;
+
+import javax.sql.DataSource;
+
+public class DAOJugadorImpl implements DAOJugador{
+	
+	private DataSource dataSource;
+
+	@Override
+	public void registrar() throws Exception {
+		
+		
+	}
+
+}

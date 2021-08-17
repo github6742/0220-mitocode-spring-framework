@@ -1,0 +1,11 @@
+package com.mitocode.dao;
+
+public class DAOMarcaImpl implements DAOMarca{
+
+	@Override
+	public void registrar() throws Exception {
+		
+		
+	}
+
+}

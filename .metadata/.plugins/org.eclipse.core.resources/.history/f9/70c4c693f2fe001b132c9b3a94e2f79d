@@ -1,0 +1,7 @@
+package com.mitocode.beans;
+
+public class Camiseta {
+	private int id;
+	private int numero;
+	private Marca marca;
+}

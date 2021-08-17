@@ -1,0 +1,11 @@
+package com.mitocode.dao;
+
+public class DAOJugadorImpl implements DAOJugador{
+
+	@Override
+	public void registrar() throws Exception {
+		
+		
+	}
+
+}

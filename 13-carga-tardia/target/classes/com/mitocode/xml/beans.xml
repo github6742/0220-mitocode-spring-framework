@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- scope singleton mismo objeto -->
+    <!-- scope prototype distintos objetos -->
+    <!-- lazy-init=true, hace que los objetos sean creados cuando se instancian, o se los llama
+         sin esta propiedad, todos los objetos son creados -->
+	<bean id="persona" class="com.mitocode.beans.Persona" autowire="byName" scope="singleton" lazy-init="true">
+		<property name="id" value="1"></property>
+		<property name="nombre" value="Jaime"></property>
+		<property name="apodo" value="MitoCode"></property>
+		
+	</bean>
+
+	<bean id="pais" class="com.mitocode.beans.Pais">
+		<property name="nombre" value="Peru"></property>
+	</bean>
+
+	<bean id="ciudad" class="com.mitocode.beans.Ciudad">
+		<property name="nombre" value="Lima"></property>
+	</bean>
+
+
+</beans>

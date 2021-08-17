@@ -1,0 +1,5 @@
+package com.mitocode.service;
+
+public interface ServiceMarca {
+	public void registrar(Marca marca) throws Exception;
+}

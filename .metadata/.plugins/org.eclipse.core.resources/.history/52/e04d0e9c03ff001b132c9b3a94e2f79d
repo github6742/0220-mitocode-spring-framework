@@ -1,0 +1,21 @@
+package com.mitocode.dao;
+
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+public class DAOJugadorImpl implements DAOJugador{
+	
+	private DataSource dataSource;
+
+	@Override
+	public void registrar() throws Exception {
+		
+		
+	}
+
+}

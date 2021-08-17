@@ -1,0 +1,3 @@
+usuario = root
+clave = admin
+url = jdbc:mysql://localhost:3306/springbd

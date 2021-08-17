@@ -1,0 +1,18 @@
+package com.mitocode.springbd;
+
+import com.mitocode.beans.Marca;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args ){
+
+    	Marca mar = new Marca();    	
+    	mar.setId(2);
+    	mar.setNombre("marca2");
+    	
+    }
+}

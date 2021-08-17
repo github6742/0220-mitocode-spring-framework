@@ -1,0 +1,13 @@
+package com.mitocode.service;
+
+import com.mitocode.beans.Jugador;
+
+public class ServiceJugadorImpl implements ServiceJugador{
+
+	@Override
+	public void registrar(Jugador jugador) throws Exception {
+		
+		
+	}
+
+}

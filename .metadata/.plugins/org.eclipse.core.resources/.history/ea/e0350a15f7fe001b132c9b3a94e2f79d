@@ -1,0 +1,18 @@
+package com.mitocode.dao;
+
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class DAOMarcaImpl implements DAOMarca{
+
+	@Autowired
+	private DataSource dataSource;
+	
+	@Override
+	public void registrar() throws Exception {
+		
+		
+	}
+
+}
